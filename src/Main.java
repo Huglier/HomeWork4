@@ -58,14 +58,14 @@ public class Main {
 
         System.out.println("Задача 6");
 
-        int place = 50; if (place <= 60) {
-            System.out.println("Есть сидячие места");
-        } else if (place > 60 && place <=102) {
-                System.out.println("Есть стоячие места");
-            }
-            else  {
-                System.out.println("Мест нет");
-            }
+        int place = 60; if (place < 60) {
+            System.out.println("Есть сидячие и стоячие места");
+        } else if (place >= 60 && place <=102) {
+            System.out.println("Есть стоячие места");
+        }
+        else  {
+            System.out.println("Мест нет");
+        }
 
         System.out.println("Задача 7");
 
